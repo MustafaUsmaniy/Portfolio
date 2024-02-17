@@ -1,8 +1,8 @@
-/* html {
+html {
     cursor: none;
-    background: #001220;
+    /* background: #001220; */
     scroll-behavior: smooth;
-} */
+}
 
 .cursor {
     position: fixed;
