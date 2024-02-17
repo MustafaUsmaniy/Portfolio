@@ -260,10 +260,3 @@
   new PureCounter();
 
 })()
-
-let rings = document.querySelectorAll('.ring');
-window.addEventListener('mousemove', function (e) {
-  rings.forEach((ring) => {
-    ring.style.transform = `translateX(calc(${e.clientX}px - 1.25rem)) translateY(calc(${e.clientY}px - 1.25rem))`;
-  });
-});
